@@ -4,12 +4,10 @@ import Home from './Home';
 import Login from './Login';
 
 const App = () => (
-  <div className="app-routes">
-    <Switch>
-      <Route path="/login" component={Login} />
-      <Route path="/" component={Home} />
-    </Switch>
-  </div>
+  <Switch>
+    <Route path="/login" component={Login} />
+    <Route path="/" component={Home} />
+  </Switch>
 );
 
 export default App;
