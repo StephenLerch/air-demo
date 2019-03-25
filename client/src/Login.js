@@ -40,7 +40,7 @@ class Login extends React.Component {
     }
   };
 
-  handleChange = name => (event: React.ChangeEvent<HTMLInputElement>) => {
+  handleChange = name => (event) => {
     this.setState({ [name]: event.target.value });
   };
 
